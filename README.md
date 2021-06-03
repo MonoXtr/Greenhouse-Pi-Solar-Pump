@@ -172,3 +172,4 @@ while True:
        pc=0
    tarray=arr.array('f', [])
    ##print(t2array)
+
