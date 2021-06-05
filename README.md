@@ -4,11 +4,15 @@ Instructions for building and coding a greenhouse solar pump controlled by a Pi.
 I have built and written the code for a solar heating pump for a greenhouse and I will share the important steps here. The project was originally created for an Internet of Things class but it has been extremely helpful so far and so I figured I would share it with anyone that's interested. 
 
 Greenhouse Description: This pump was designed for use in heating water barrels in a custom built greenhouse. 
-In this section I will explain the layout of the greenhouse and provide some pictures for reference.
+In this section I will explain the layout of the greenhouse and provide some pictures for reference. This section can be skipped if you are not interested in seeing my personal setup.
 
 Here is a picture of the outside of the greenhouse along with the attic where the sensors were placed on a coil of hose:
+![image](https://user-images.githubusercontent.com/71414550/120868288-f5fd3600-c550-11eb-829d-2dd2470e4c06.png)
+![image](https://user-images.githubusercontent.com/71414550/120869189-1cbc6c00-c553-11eb-9c67-4ad6177facb0.png)
 
-Here is a picture of the interior with the water barrels:
+Here is a picture of the interior of the greenhouse with the water barrels:
+
+![image](https://user-images.githubusercontent.com/71414550/120869210-29d95b00-c553-11eb-8769-26ed75cabd42.png)
 
 Project Physical Requirements:
 
@@ -28,7 +32,10 @@ Pi Starter Kit (Includes resistor, breadboard, and wires as well as many other e
 Before you begin the project you will need to make sure that your Pi is properly configured. To properly set up your Pi for use follow the following instructions: https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up
 
 Once the initial setup has been completed you will need to setup the sensors. 
-To do this follow the instructions provided in this link: https://www.raspberrypi-spy.co.uk/2013/03/raspberry-pi-1-wire-digital-thermometer-sensor/ You will need to use the setup provided and appropriate wires to recreate the picture of the breadboard provided. Here are a few reference images of my personal setup.![image](https://user-images.githubusercontent.com/71414550/120537424-86494880-c3a2-11eb-8b8b-1233555fa8c4.png) ![image](https://user-images.githubusercontent.com/71414550/120537477-96f9be80-c3a2-11eb-8a04-6573b2cc022e.png)
+To do this follow the instructions provided in this link: https://www.raspberrypi-spy.co.uk/2013/03/raspberry-pi-1-wire-digital-thermometer-sensor/ You will need to use the setup provided and appropriate wires to recreate the picture of the breadboard provided. Here are a few reference images of my personal setup.
+![image](https://user-images.githubusercontent.com/71414550/120537424-86494880-c3a2-11eb-8b8b-1233555fa8c4.png) 
+![image](https://user-images.githubusercontent.com/71414550/120537477-96f9be80-c3a2-11eb-8a04-6573b2cc022e.png)
+
 This link can also be used if the previous link is unclear: https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/temperature/
 
 Once the sensor has been successfully setup for the Pi the Pi will need to be connected to the relay. This is a simple process which requires two wires connected from the Pi to the green section of the pump. You can see the connections in the previous reference images. 
