@@ -4,7 +4,7 @@ Instructions for building and coding a greenhouse solar pump controlled by a Pi.
 I have built and written the code for a solar heating pump for a greenhouse and I will share the important steps here. The project was originally created for an Internet of Things class but it has been extremely helpful so far and so I figured I would share it with anyone that's interested. 
 
 Greenhouse Description: This pump was designed for use in heating water barrels in a custom built greenhouse. 
-In this section I will explain the layout of the greenhouse and provide some pictures for reference. This section can be skipped if you are not interested in seeing my personal setup.
+In this section I will demonstrate the layout of the greenhouse and provide some pictures for reference. This section can be skipped if you are not interested in seeing my personal setup.
 
 Here is a picture of the outside of the greenhouse along with the attic where the sensors were placed on a coil of hose:
 ![image](https://user-images.githubusercontent.com/71414550/120868288-f5fd3600-c550-11eb-829d-2dd2470e4c06.png)
